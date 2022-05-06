@@ -1,11 +1,11 @@
-/*  add simple reset    */
+/*  added simple reset    */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/*  add variables of fonts and colors   */
+/*  added variables of fonts and colors   */
 :root {
     --primary-font:'Nunito Sans', sans-serif;
     --article-font: 'Open Sans', sans-serif;
@@ -24,17 +24,18 @@
     --copyright-color: #D1D1D1;
 }
 
-/*  add container   */
+/*  added container   */
 .container {
     width: 1088px;
     margin: 0 auto;
 }
-/*  button styling  */
+/* added button styling  */
 
 .btn {
     border-radius: 40px;
     font-family: var(--primary-font);
     font-weight: bold;
+    display: inline-block;
 }
 .main-buttons {
     padding: 22px 55px;
@@ -60,4 +61,8 @@
     padding: 11px 29px 10px 29px;
     box-shadow: var(--button-shadow-color) 0 3px 6px;
     font-size: 14px;
+}
+.main-section {
+    height: 100vh;
+    background-image: url("../images/Image.png");
 }
