@@ -1,0 +1,19 @@
+/*  add simple reset    */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  add fonts   */
+:root {
+    --primary-font:'Nunito Sans', sans-serif;
+    --article-font: 'Open Sans', sans-serif;
+}
+
+/*  add container   */
+.container {
+    width: 1088px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
