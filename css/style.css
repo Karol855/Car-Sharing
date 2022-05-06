@@ -5,15 +5,27 @@
     padding: 0;
 }
 
-/*  add fonts   */
+/*  add variables of fonts and colors   */
 :root {
     --primary-font:'Nunito Sans', sans-serif;
     --article-font: 'Open Sans', sans-serif;
+
+    --primary-color: #FFFFFF;
+    --undercoat-color: #000000;
+    --undercoat-section--color: #00000066;
+    --hover-section--color: #FFFFFF33;
+    --button-primary--color:#FF0000;
+    --headline-shadow--color:#00000040;
+    --button-shadow-color: #FF00004D;
+    --button-second--color: #FFFFFF29;
+    --blog-text--color: #6A6A6A;
+    --footer-background--color: #28272C;
+    --service-text--color: #B2B2B2;
+    --copyright-color: #D1D1D1;
 }
 
 /*  add container   */
 .container {
     width: 1088px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
