@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 
 /*  added variables of fonts and colors   */
 :root {
@@ -34,7 +37,7 @@
 .btn {
     border-radius: 40px;
     font-family: var(--primary-font);
-    font-weight: bold;
+    font-weight: 700;
     display: inline-block;
     cursor: pointer;
 }
@@ -44,15 +47,17 @@
 }
 .share-button {
     font-size: 16px;
+    margin-right: 25px;
 }
 .features-button {
     color: var(--button-primary--color);
     font-size: 16px;
+    background-color: var(--primary-color);
 }
 .red-buttons {
+    color: var(--primary-color);
     background-color: var(--button-primary--color);
     box-shadow: var(--button-shadow-color) 0 3px 6px;
-    color: var(--button-second--color);
 }
 .article-buttons {
     padding: 11px 29px 10px 29px;
@@ -68,6 +73,7 @@
 
 .main-section {
     height: 100vh;
+    width: 1366px;
     background-image: url("../images/Image.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +106,7 @@
 }
 .logo-text {
     font-family: var(--primary-font);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 35px;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -130,4 +136,40 @@ span.logo-letter {
 }
 .main-nav--elements:hover{
     background-color: var(--hover-section--color);
+}
+/*      center section with h1     */
+.center-section {
+    height: 297px;
+    margin-top: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headline {
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 90px;
+    color: var(--primary-color);
+    text-shadow: var(--headline-shadow--color) 0 3px 6px;
+    text-transform: uppercase;
+}
+.headline-text {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+    width: 1046px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 54px;
+    letter-spacing: 0;
+}
+
+/*  added arrow styling*/
+.arrow-down {
+    background-color:var(--button-primary--color);
+    padding: 17px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-25px;
 }
