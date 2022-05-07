@@ -145,7 +145,7 @@ span.logo-letter {
 .main-nav--elements:hover{
     background-color: var(--hover-section--color);
 }
-/*      center section with h1     */
+/*   center section with h1    */
 .center-section {
     height: 297px;
     margin-top: 164px;
@@ -175,7 +175,7 @@ span.logo-letter {
     z-index: 1;
 }
 
-/*  added buttons arrow styling*/
+/*    buttons and arrow     */
 .arrow-down {
     background-color:var(--button-primary--color);
     padding: 17px;
@@ -186,3 +186,5 @@ span.logo-letter {
 .buttons-section {
     z-index: 1;
 }
+
+/*      added blog styling      */
