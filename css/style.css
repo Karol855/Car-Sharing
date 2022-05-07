@@ -243,12 +243,12 @@ span.logo-letter {
 .blog-columns:nth-child(2) {
     margin-right: 16px;
 }
-.blog-image {
+.blog-images {
     height: 234px;
     width: 352px;
     margin-bottom: 25px;
 }
-.blog-headline--small {
+.blog-headlines--small {
     font-family: var(--primary-font);
     font-size: 19px;
     font-weight: 400;
@@ -274,3 +274,4 @@ span.logo-letter {
     align-items: center;
     margin-bottom: 100px;
 }
+
