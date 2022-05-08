@@ -60,11 +60,6 @@ a {
     padding: 11px 29px 10px 29px;
     font-size: 14px;
 }
-.submit-button {
-    padding: 11px 29px 10px 29px;
-    box-shadow: var(--button-shadow-color) 0 3px 6px;
-    font-size: 14px;
-}
 /*  *******************    added main section  styling     ********************    */
 .main-section {
     height: 100vh;
@@ -354,7 +349,7 @@ span.logo-letter {
 }
 .contact-container {
     width: 904px;
-    margin: 0 auto;
+    margin: 0 auto 65px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -440,4 +435,16 @@ textarea {
     background-image: url("../images/Icon Check.svg");
     background-position: center;
     background-repeat: no-repeat;
+}
+/*      button submit    */
+.submit-button {
+    padding: 11px 52px 10px 52px;
+    border: 1px solid var(--button-primary--color);
+    background-color: var(--primary-color);
+    box-shadow: var(--button-shadow-color) 0 3px 6px;
+    font-size: 14px;
+    color: var(--button-primary--color);
+    width: 142px;
+    height: 40px;
+    align-self: flex-end;
 }
