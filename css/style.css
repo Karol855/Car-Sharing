@@ -359,7 +359,22 @@ span.logo-letter {
     flex-direction: column;
     align-items: center;
 }
+/*      contact headline       */
 .contact-headline {
     margin-top: 65px;
+    margin-bottom: 35px;
 }
-
+/*      contact form      */
+.form-section {
+    display: flex;
+}
+.contact-image {
+    margin-right: 16px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.agreement {
+    display: flex;
+}
