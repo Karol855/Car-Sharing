@@ -375,9 +375,6 @@ span.logo-letter {
     display: flex;
     flex-direction: column;
 }
-.agreement {
-    display: flex;
-}
 /*      input name, email and textarea    */
 input[type="text"],
 input[type="email"] {
@@ -411,3 +408,36 @@ textarea {
     padding-left: 12px;
 }
 /*      checkbox    */
+.agreement-checkbox {
+    display: flex;
+    cursor: pointer;
+    font-family: var(--article-font);
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--service-text--color);
+    text-align: left;
+    line-height: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.agreement-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.agreement-checkbox span {
+    height: 22px;
+    flex-shrink: 0;
+    flex-basis: 22px;
+    border: 1px solid var(--copyright-color);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.agreement-checkbox input:checked + span {
+    background-image: url("../images/Icon Check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
