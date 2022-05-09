@@ -116,6 +116,8 @@ a {
     z-index: 1;
 }
 .logo-icon {
+    display: flex;
+    align-self: center;
     width: 31px;
     height: 35px;
     margin-right: 10px;
@@ -465,3 +467,35 @@ textarea {
     color:var(--primary-color);
 }
 /* *************     added footer section styling   *******************  */
+.footer-section {
+    width: 1366px;
+    background-color: var(--footer-background--color);
+    margin: 0 auto;
+}
+/*     footer - logo     */
+.small-logo--section {
+    display: flex;
+    align-self: center;
+    padding-top: 40px;
+    margin-bottom: 22px;
+}
+.small-logo--icon {
+    display: flex;
+    align-self: center;
+    width: 16.45px;
+    height: 18.95px;
+    margin-right: 7.55px;
+}
+.small-logo--text{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.small-logo--letter {
+    color: var(--button-primary--color);
+    font-weight: 800;
+    margin-right: 8px;
+}
